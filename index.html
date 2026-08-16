@@ -1,90 +1,143 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandi Ardiasnyah</title>
-    <!-- Menggunakan CDN Tailwind CSS untuk Desain Modern -->
+    <title>Sandi Ardiansyah, S.Kom - Portofolio</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://tailwindcss.com"></script>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
     <!-- 1. NAVIGATION BAR -->
-    <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+    <nav class="bg-slate-900/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-800">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="font-bold text-xl tracking-tight text-indigo-600">Portofolio.ku</span>
-            <div class="space-x-6 font-medium text-sm text-slate-600">
-                <a href="#tentang" class="hover:text-indigo-600 transition">Tentang</a>
-                <a href="#pengalaman" class="hover:text-indigo-600 transition">Pengalaman</a>
-                <a href="#keahlian" class="hover:text-indigo-600 transition">Keahlian</a>
+            <span class="font-extrabold text-xl tracking-tight bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">Sandi.Dev</span>
+            <div class="space-x-6 font-medium text-sm text-slate-400">
+                <a href="#profil" class="hover:text-indigo-400 transition">Profil</a>
+                <a href="#pengalaman" class="hover:text-indigo-400 transition">Pengalaman</a>
+                <a href="#pendidikan" class="hover:text-indigo-400 transition">Pendidikan</a>
             </div>
         </div>
     </nav>
 
     <!-- 2. HERO / HEADER SECTION -->
-    <header id="tentang" class="max-w-5xl mx-auto px-6 pt-16 pb-12 flex flex-col md:flex-row items-center gap-8">
-        <!-- Foto Profil Placeholder -->
-        <div class="w-36 h-36 md:w-44 md:h-44 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center text-white text-4xl font-bold shadow-lg shadow-indigo-200 shrink-0">
-            FOTO
+    <header id="profil" class="max-w-5xl mx-auto px-6 pt-20 pb-16 flex flex-col md:flex-row items-center gap-10">
+        <!-- Avatar Lingkaran dengan Gradien Efek -->
+        <div class="w-40 h-40 md:w-48 md:h-48 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-1 shadow-xl shadow-indigo-500/10 shrink-0">
+            <div class="w-full h-full rounded-full bg-slate-800 flex items-center justify-center overflow-hidden">
+                <!-- Jika ada foto asli, ganti baris teks di bawah ini dengan tag <img> -->
+                <!-- <img src="img/foto-sandi.jpg" alt="Sandi Ardiansyah" class="w-full h-full object-cover"> -->
+                <span class="text-slate-400 text-sm font-semibold">Foto Profil</span>
+            </div>
         </div>
         <div class="text-center md:text-left">
-            <span class="bg-indigo-50 text-indigo-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Tersedia untuk Kerja</span>
-            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mt-3">Nama Lengkap Anda</h1>
-            <p class="text-lg md:text-xl text-indigo-600 font-medium mt-1">Web Developer / UI UX Designer</p>
-            <p class="text-slate-600 mt-4 max-w-xl leading-relaxed">
-                Saya adalah seorang pengembang web yang berfokus pada pembuatan antarmuka digital yang bersih, modern, dan mudah digunakan. Senang mempelajari teknologi baru dan menyelesaikan masalah lewat baris kode.
-            </p>
-            <!-- Tombol Interaktif -->
-            <div class="mt-6 flex flex-wrap justify-center md:justify-start gap-4">
-                <a href="mailto:emailanda@gmail.com" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm px-6 py-3 rounded-xl transition shadow-md shadow-indigo-100">Hubungi Saya</a>
-                <a href="#" class="bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 font-semibold text-sm px-6 py-3 rounded-xl transition">Cetak CV (PDF)</a>
+            <span class="bg-indigo-500/10 text-indigo-400 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider border border-indigo-500/20">Open to Work</span>
+            <h1 class="text-3xl md:text-5xl font-black tracking-tight text-white mt-3">SANDI ARDIANSYAH, S.KOM</h1>
+            <p class="text-lg md:text-xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent font-bold mt-1 uppercase">Software Engineer & Data Science</p>
+            
+            <!-- Lokasi & Kontak Minimalis -->
+            <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-3 text-sm text-slate-400">
+                <span>📍 Medan Johor, Kota Medan</span>
+                <span>📧 ardiansyah.sandi06@gmail.com</span>
+                <span>📞 +62-813-7354-3258</span>
             </div>
+
+            <p class="text-slate-400 mt-6 max-w-2xl leading-relaxed text-sm md:text-base">
+                Seorang pemimpin teknologi dengan pengalaman sebagai <strong>Chief Technology Officer (CTO)</strong>, <strong>Manajer Produksi</strong>, dan <strong>Konsultan IT</strong>. Memiliki kombinasi unik antara keahlian teknis dalam <em>Software Engineering, Data Science, dan Business Intelligence</em>, serta kemampuan manajerial yang teruji dalam <em>Project Management dan Leadership</em>.
+            </p>
         </div>
     </header>
 
-    <main class="max-w-5xl mx-auto px-6 py-12 space-y-20">
+    <!-- MAIN CONTENT -->
+    <main class="max-w-5xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
         
-        <!-- 3. WORK EXPERIENCE SECTION -->
-        <section id="pengalaman" class="scroll-mt-24">
-            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                <span class="w-2 h-6 bg-indigo-600 rounded-full"></span> Pengalaman & Organisasi
-            </h2>
-            <div class="space-y-6">
-                <!-- Kartu Pengalaman 1 -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition">
-                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
-                        <div>
-                            <h3 class="font-bold text-lg text-slate-900">Web Developer Freelance</h3>
-                            <p class="text-sm text-slate-500 font-medium">Bekerja Mandiri / Remote</p>
-                        </div>
-                        <span class="text-xs font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full sm:self-center">2024 - Sekarang</span>
-                    </div>
-                    <p class="text-slate-600 text-sm mt-3 leading-relaxed">
-                        Membangun berbagai website statis dan landing page responsif untuk UMKM setempat menggunakan kerangka kerja HTML/CSS modern.
-                    </p>
+        <!-- KOLOM KIRI: SKILLS & LANGUAGES -->
+        <div class="space-y-10">
+            <!-- KEMAMPUAN BLOCK -->
+            <section>
+                <h2 class="text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-2">
+                    <span class="w-1.5 h-5 bg-indigo-500 rounded-full"></span> Kemampuan
+                </h2>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">Software Engineer</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">Data Science</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">Business Intelligence</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">Database</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">Project Management</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">Public Relations</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">Teamwork</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">Time Management</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">Leadership</span>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- 4. SKILLS SECTION -->
-        <section id="keahlian" class="scroll-mt-24">
-            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                <span class="w-2 h-6 bg-indigo-600 rounded-full"></span> Keahlian Teknis
-            </h2>
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                <div class="bg-white p-4 rounded-xl border border-slate-100 text-center font-semibold text-sm text-slate-700 shadow-sm">HTML5 & CSS3</div>
-                <div class="bg-white p-4 rounded-xl border border-slate-100 text-center font-semibold text-sm text-slate-700 shadow-sm">Tailwind CSS</div>
-                <div class="bg-white p-4 rounded-xl border border-slate-100 text-center font-semibold text-sm text-slate-700 shadow-sm">JavaScript (ES6)</div>
-                <div class="bg-white p-4 rounded-xl border border-slate-100 text-center font-semibold text-sm text-slate-700 shadow-sm">Git & GitHub</div>
-            </div>
-        </section>
+            <!-- BAHASA BLOCK -->
+            <section>
+                <h2 class="text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-2">
+                    <span class="w-1.5 h-5 bg-purple-500 rounded-full"></span> Bahasa
+                </h2>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between items-center bg-slate-800/40 p-3 rounded-xl border border-slate-800">
+                        <span class="text-slate-300 font-medium">Indonesia</span>
+                        <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">Aktif</span>
+                    </div>
+                    <div class="flex justify-between items-center bg-slate-800/40 p-3 rounded-xl border border-slate-800">
+                        <span class="text-slate-300 font-medium">Inggris</span>
+                        <span class="text-xs text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">Pasif</span>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-    </main>
+        <!-- KOLOM KANAN: PENGALAMAN & PENDIDIKAN (LEBIH LEBAR) -->
+        <div class="md:col-span-2 space-y-12">
+            
+            <!-- PENGALAMAN KERJA TIMELINE -->
+            <section id="pengalaman" class="scroll-mt-24">
+                <h2 class="text-lg font-bold text-white mb-6 uppercase tracking-wider flex items-center gap-2">
+                    <span class="w-1.5 h-5 bg-indigo-500 rounded-full"></span> Pengalaman Kerja
+                </h2>
+                
+                <!-- Garis vertikal timeline -->
+                <div class="border-l-2 border-slate-800 ml-3 space-y-8">
+                    
+                    <!-- Item Pengalaman 1 -->
+                    <div class="relative pl-8">
+                        <div class="absolute w-3.5 h-3.5 bg-indigo-500 rounded-full -left-[8px] top-1.5 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-wrap justify-between items-start gap-1">
+                            <div>
+                                <h3 class="font-bold text-base text-white">Manajer Produksi</h3>
+                                <p class="text-xs text-indigo-400 font-medium">CV. Sandi Sukses Teknologi</p>
+                            </div>
+                            <span class="text-[11px] font-semibold text-slate-400 bg-slate-800 px-2.5 py-0.5 rounded-full border border-slate-700">2024 - Sekarang</span>
+                        </div>
+                        <p class="text-slate-400 text-xs md:text-sm mt-2 leading-relaxed">
+                            Mengelola proyek IT kompleks dengan tim berisi 8+ orang menggunakan metodologi Project Management.
+                        </p>
+                    </div>
 
-    <!-- 5. FOOTER -->
-    <footer class="bg-slate-900 text-slate-400 text-center py-8 text-sm mt-20 border-t border-slate-800">
-        <p>&copy; 2026 Sandi Ardiansyah. Dibuat dengan Tailwind CSS & di-hosting di GitHub Pages.</p>
-    </footer>
+                    <!-- Item Pengalaman 2 -->
+                    <div class="relative pl-8">
+                        <div class="absolute w-3.5 h-3.5 bg-purple-500 rounded-full -left-[8px] top-1.5 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-wrap justify-between items-start gap-1">
+                            <div>
+                                <h3 class="font-bold text-base text-white">Chief Technology Officer (CTO)</h3>
+                                <p class="text-xs text-purple-400 font-medium">APIK Technology</p>
+                            </div>
+                            <span class="text-[11px] font-semibold text-slate-400 bg-slate-800 px-2.5 py-0.5 rounded-full border border-slate-700">2018 - 2024</span>
+                        </div>
+                        <p class="text-slate-400 text-xs md:text-sm mt-2 leading-relaxed">
+                            Berhasil memimpin transformasi digital sebagai CTO yang meningkatkan efisiensi sistem perusahaan secara keseluruhan.
+                        </p>
+                    </div>
 
-</body>
-</html>
+                    <!-- Item Pengalaman 3 -->
+                    <div class="relative pl-8">
+                        <div class="absolute w-3.5 h-3.5 bg-slate-700 rounded-full -left-[8px] top-1.5 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-wrap justify-between items-start gap-1">
+                            <div>
+                                <h3 class="font-bold text-base text-white">Konsultan IT</h3>
+                                <p class="text-xs text-slate-400 font-medium">Jafar Group</p>
+                            </div>
+                            <span class="text-[11px] font-semibold text-slate-400 bg-slate-800 px-2.5 py-0.5 rounded-full border border-slate-700">2021 - 2024</span>
